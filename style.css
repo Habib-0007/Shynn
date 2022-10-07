@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Google sans", "sans serif";
+}
+
+header h4 {
+    text-align: center;
+    font-size: 1.7em;
+    color: #e74d8f;
+    animation-name: header;
+    animation-duration: 2s;
+    padding-top: 0.5em;
+    animation-delay: .2s;
+}
+
+
+@keyframes header {
+         from {
+            padding-top: 0em;
+            padding-right: 8em;
+            font-size: 1.2em;
+            color: #ff9315;
+         }
+         
+         to {
+            padding-top: 0.5em;
+         }
+ }
+ 
+ 
+.generate p {
+    text-align: center; 
+    padding: 1em;
+}       
+         
+.input input[type="number"] {
+    display: block;
+    width: 14em;
+    height: 2.5em;
+    margin: 0 auto;
+    border-radius: 0.2em;
+    border: 1.3px solid #e74d8f;
+    outline-color: #e74d8f;
+    padding-left: 6px;
+    font-size: 1.2em;
+}
+
+button#generate {
+    display: block;
+    margin: 0 auto;
+    background: #e74d8f;
+    width: 8em;
+    height: 3em;
+    border-radius: 0.2em;
+    color: #fff;
+    margin-top: 1em;
+}
+
+#getDigit {
+    display: block;
+    text-align: center;
+    margin: 1em;
+    font-size: 1.3em;
+  }
+ 
+
+.imageone {
+    width: 75%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.accordion > details {
+    margin: 1.5em;
+}
+
+.accordion details  p {
+    padding: 0.5em;
+}
+
+.accordion  details:nth-child(1) {
+    margin-top: 4em;
+}
+
+hr {
+    border: 1px solid #e74d8f;
+    width: 90%;
+    color: #fff;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer .icons b {
+    display: block;
+    margin-top: 10px;
+    color: #e74d8f;
+}
+
+footer .icons {
+    /* height: 90px; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .icons a {
+    text-decoration: none;
+    color: #e74d8f;
+    padding-top: 10px;
+    font-size: 30px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+footer .icons #facebooklink {
+    margin-left: 0 !important;
+}
+
+footer .icons p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 480px) { 
+
+ header h4 {
+     font-size: 3em;
+ }
+ 
+ .input input[type="number"] {
+     width: 25em;
+     height: 3em;
+ }
+ 
+        } 
